@@ -1,0 +1,45 @@
+:root {
+    --bg-button:#f0f0f0;
+    --border-button:solid 1px rgb(117, 108, 108);
+}
+
+.button {
+    font-size: 2em;
+    background-color: var(--bg-button);
+    border:none;
+    border: var(--border-button);
+    outline:none;
+}
+
+.button:active{
+    background:#ccc;   
+}
+
+.button.duble{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+    background:rgba(231, 149, 149, 0.773);
+}
+
+.button.duble.i{
+    background:rgba(160, 231, 149, 0.773);
+}
+
+.button.o{
+    background:rgba(227, 165, 58, 0.757);
+}
+
+.button.o:active{
+    background:#ccc;   
+}
+
+.button.duble.i:active{
+    background:#ccc; 
+}
+
+.button.triple:active{
+    background:#ccc; 
+}
