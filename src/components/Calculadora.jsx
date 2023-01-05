@@ -72,16 +72,16 @@ const Calculadora = () => {
         <div className="Calculadora">
             <Display value={valorDisplay}/>
             <div className="calculadora-button">
-                <Button label="AC" funcao={_limpar}   className='button triple' />
+                <Button label="AC" funcao={_limpar}  className='button triple' />
                 <Button label="/" funcao={_operacao} className='button o' />
                 <Button label="7" funcao={_adicionar} className='button'  />
                 <Button label="8" funcao={_adicionar} className='button' />
-                <Button label="9" funcao={_operacao}  className='button' />
+                <Button label="9" funcao={_adicionar}  className='button' />
                 <Button label="*" funcao={_operacao}  className='button o'  />
                 <Button label="4" funcao={_adicionar} className='button' />
                 <Button label="5" funcao={_adicionar} className='button' />
                 <Button label="6" funcao={_adicionar} className='button' />
-                <Button label="-" funcao={_adicionar} className='button o' />
+                <Button label="-" funcao={_operacao} className='button o' />
                 <Button label="1" funcao={_adicionar} className='button' />
                 <Button label="2" funcao={_adicionar} className='button' />
                 <Button label="3" funcao={_adicionar} className='button' />
